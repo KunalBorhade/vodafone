@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.vodafone.myapp</groupId>
-  <artifactId>vodafone</artifactId>
+  <artifactId>vodafone-kunal</artifactId>
   <version>1.9-Kunal-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -28,7 +28,16 @@
     </dependency>
   </dependencies>
   
-
+  <distributionManagement>
+        	<repository>
+	            <id>nexus</id>
+	            <url>http://15.206.48.100:8081/repository/maven-releases/</url>
+	        </repository>
+	        <snapshotRepository>
+                <id>nexus</id>
+                <url>http://15.206.48.100:8081/repository/maven-snapshots/</url>
+        	</snapshotRepository>
+	</distributionManagement>
   <build>
     <finalName>vodafone</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
