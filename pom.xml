@@ -6,7 +6,7 @@
 
   <groupId>com.vodafone.myapp</groupId>
   <artifactId>vodafone</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.9-Kunal-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>vodafone Maven Webapp</name>
